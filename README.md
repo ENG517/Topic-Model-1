@@ -4,8 +4,8 @@ This repo contains a DITA topic model (TM) related to [enter main goal and topic
 
 ## Authors
 
-- Name 1
-- Name 2
+- Ademola Adepoju
+- Justin Watson
 
 ## Folders &amp; Files
 
