@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_verification_command">
+  <title>Verification Command</title>
+  <shortdesc>Users need a fast way to verify Python installation status to ensure they have the required environment before installing Matplotlib.</shortdesc>
+  <refbody>
+<section>
+<table>
+<title>Verification Command</title>
+<tgroup cols="2">
+  <thead>
+
+    <row>
+      <entry>Command</entry>
+      <entry>Description</entry>
+    </row>
+  </thead>
+
+<tbody>
+<row>
+  <entry>Import Matplotlib</entry>
+  <entry>Import the matplotlib library into your Python environment</entry>
+
+
+</row>
+
+<row>
+  <entry>print(matplotlib.__version__)</entry>
+  <entry>Print the installed version of Matplotlib to verify it is properly installed</entry>
+
+</row>
+
+
+
+
+
+
+
+
+</tbody>
+
+
+
+</tgroup>
+
+</table>
+
+
+
+</section>
+  </refbody>
+</reference>
