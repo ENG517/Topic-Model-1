@@ -1,11 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_enter_unique_id_here">
+
+  <!-- Title of the task -->
   <title>Customize the Line Chart</title>
-  <shortdesc>
-The task shows how to customize a line chart by adding titles, axis la
-  </shortdesc>
+
+  <!-- Short description of the task -->
+  <shortdesc>This task demonstrates how to customize a line chart that you previously created by adding titles, axis labels, and other customizations using Python and Matplotlib.</shortdesc>
+
+  <!-- Task Body -->
   <taskbody>
 
+    <!-- Step 1: Import Matplotlib -->
+    <steps>
+      <step>
+        <cmd>Import Matplotlib into Python</cmd>
+        <info>To start, import the `matplotlib.pyplot` library to access plotting functionality.</info>
+        <codeblock>
+          import matplotlib.pyplot as plt
+        </codeblock>
+        <image href="assets/images/screenshots/Python6.png" alt="Importing matplotlib.pyplot into Python"/>
+      </step>
+    </steps>
+
+    <!-- Step 2: Define Your Data -->
+    <steps>
+      <step>
+        <cmd>Define Your Data</cmd>
+        <info>Define your data by creating the x and y values. These represent the points to be plotted on the graph.</info>
+        <codeblock>
+          x = [1, 2, 3, 4, 5]
+          y = [1, 4, 9, 16, 25]
+        </codeblock>
+        <image href="assets/images/screenshots/Python7.png" alt="Defining x and y data"/>
+      </step>
+    </steps>
+
+    <!-- Step 3: Create the Line Plot -->
+    <steps>
+      <step>
+        <cmd>Create the Line Plot</cmd>
+        <info>Use the `plt.plot()` function to create the line plot with your x and y values.</info>
+        <codeblock>
+          plt.plot(x, y)
+        </codeblock>
+        <image href="assets/images/screenshots/Python8.png" alt="Creating the line plot using plt.plot()"/>
+      </step>
+    </steps>
+
+    <!-- Step 4: Add a Title to the Plot -->
+    <steps>
+      <step>
+        <cmd>Add a Title to the Plot</cmd>
+        <info>Add a title to the plot using `plt.title()` to describe what the chart represents.</info>
+        <codeblock>
+          plt.title("Customized Line Chart")
+        </codeblock>
+        <image href="assets/images/screenshots/Python11.png" alt="Adding a title to the plot"/>
+      </step>
+    </steps>
+
+    <!-- Step 5: Add Axis Labels -->
+    <steps>
+      <step>
+        <cmd>Add Axis Labels</cmd>
+        <info>Label the x and y axes for clarity using `plt.xlabel()` and `plt.ylabel()`.</info>
+        <codeblock>
+          plt.xlabel("X Axis")
+          plt.ylabel("Y Axis")
+        </codeblock>
+        <image href="assets/images/screenshots/Python12.png" alt="Adding axis labels to the plot"/>
+      </step>
+    </steps>
+
+    <!-- Step 6: Add Grid Lines -->
+    <steps>
+      <step>
+        <cmd>Add Grid Lines</cmd>
+        <info>Make the plot easier to read by adding grid lines with `plt.grid()`.</info>
+        <codeblock>
+          plt.grid(True)
+        </codeblock>
+        <image href="assets/images/screenshots/Python13.png" alt="Adding grid lines to the plot"/>
+      </step>
+    </steps>
+
+    <!-- Step 7: Display the Plot -->
+    <steps>
+      <step>
+        <cmd>Display the Plot</cmd>
+        <info>Use `plt.show()` to display the customized plot on your screen.</info>
+        <codeblock>
+          plt.show()
+        </codeblock>
+        <image href="assets/images/screenshots/Python15.png" alt="Displaying the customized plot"/>
+      </step>
+    </steps>
+
+    <!-- Step 8: Final Customized Line Chart -->
+    <steps>
+      <step>
+        <cmd>Final Customized Line Chart</cmd>
+        <info>After running all the steps, you should now have a customized line chart with a title, axis labels, grid lines, and a styled line.</info>
+        <image href="assets/images/screenshots/customplot.png" alt="Final customized line chart"/>
+      </step>
+    </steps>
+
   </taskbody>
+
 </task>
