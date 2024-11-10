@@ -1,11 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_how_to_install_matplotlib">
-  <title>How to Install Matplotlib</title>
-  <shortdesc>
 
-  </shortdesc>
+
+  <title>Install Matplotlib</title>
+
+
+  <shortdesc>Install the matplotlib library in Python, which is necessary for creating data visualizations.</shortdesc>
+
+  <!-- Steps for the task -->
   <taskbody>
+      <!-- Step 1 -->
+  
+        <cmd>Verify Dependencies</cmd>
+        <info>Before installing `matplotlib`, ensure that Python and `pip` are installed on your system.</info>
+       
+          <cmd>Check if Python is installed</cmd>
+          <info>Run the following command in your terminal: `python3 --version`</info>
+          <image href="assets/images/screenshots/Step1.png" alt="Python version check"/>
+        </task>
+        <step>
+          <cmd>Check if pip is installed</cmd>
+          <info>Run the following command in your terminal: `pip --version`</info>
+          <image href="assets/images/screenshots/Python2.png" alt="pip version check"/>
+        </step>
+  
+      <!-- Step 2 -->
+      <step>
+        <cmd>Install Missing Dependencies</cmd>
+        <info>If either Python or pip is missing, follow these steps to install them:</info>
+        <step>
+          <cmd>Install Python</cmd>
+          <info>Download and install Python from the official website.</info>
+        </step>
+        <step>
+          <cmd>Install pip</cmd>
+          <info>Run the following command in your terminal to install pip: `python3 -m ensurepip`</info>
+        </step>
+      </step>
+  
+      <!-- Step 3 -->
+      <step>
+        <cmd>Install Matplotlib</cmd>
+        <info>Once Python and pip are installed, install Matplotlib with the following command: `pip install matplotlib`</info>
+        <image href="assets/images/screenshots/Python3.png" alt="Matplotlib installation command"/>
+      </step>
+  
+      <!-- Step 4 -->
+      <step>
+        <cmd>Verify Installation</cmd>
+        <info>After installation, verify that Matplotlib is installed correctly by running the following code in your Python IDE:</info>
+        <codeblock>
+          import matplotlib
+          print(matplotlib.__version__)
+        </codeblock>
+        <image href="assets/images/screenshots/Python5.png" alt="Matplotlib version output"/>
+      </step>
+  </step>
+    <!-- Step 1 -->
+    <!-- Remove the extra <step> tag -->
+      <cmd>Verify Dependencies</cmd>
+      <info>Before installing `matplotlib`, ensure that Python and `pip` are installed on your system.</info>
+      <!-- Remove the extra <step> tag -->
+        <cmd>Check if Python is installed</cmd>
+        <info>Run the following command in your terminal: `python3 --version`</info>
+        <image href="assets/images/screenshots/Step1.png" alt="Python version check"/>
+      </step>
+      <step>
+        <cmd>Check if pip is installed</cmd>
+        <info>Run the following command in your terminal: `pip --version`</info>
+        <image href="assets/images/screenshots/Python2.png" alt="pip version check"/>
+      </step>
+    </step>
 
-  </taskbody>
+    <!-- Step 2 -->
+    <step>
+      <cmd>Install Missing Dependencies</cmd>
+      <info>If either Python or pip is missing, follow these steps to install them:</info>
+      <step>
+        <cmd>Install Python</cmd>
+        <info>Download and install Python from the official website.</info>
+      </step>
+      <step>
+        <cmd>Install pip</cmd>
+        <info>Run the following command in your terminal to install pip: `python3 -m ensurepip`</info>
+      </step>
+    </step>
+
+    <!-- Step 3 -->
+    <step>
+      <cmd>Install Matplotlib</cmd>
+      <info>Once Python and pip are installed, install Matplotlib with the following command: `pip install matplotlib`</info>
+      <image href="assets/images/screenshots/Python3.png" alt="Matplotlib installation command"/>
+    </step>
+
+    <!-- Step 4 -->
+    <step>
+      <cmd>Verify Installation</cmd>
+      <info>After installation, verify that Matplotlib is installed correctly by running the following code in your Python IDE:</info>
+      <codeblock>
+        import matplotlib
+        print(matplotlib.__version__)
+      </codeblock>
+      <image href="assets/images/screenshots/Python5.png" alt="Matplotlib version output"/>
+    </step>
+ 
+</taskbody>
+
 </task>
