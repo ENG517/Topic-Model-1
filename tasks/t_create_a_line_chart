@@ -1,12 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_create_a_line_chart">
-  <title></title>
-  <shortdesc>
 
-  </shortdesc>
-  <taskbody>
 
-  </taskbody>
+  <title>Create a Line Chart</title>
+
+  
+  <shortdesc>This task demonstrates how to create a line chart using Python and Matplotlib.</shortdesc>
+
+
+  <taskbody>taskbody
+  
+      <!-- Step 1: Import Matplotlib -->
+      <step>
+        <cmd>Import Matplotlib into Python</cmd>
+        <info>To get started, import the `matplotlib.pyplot` library for plotting.</info>
+        <codeblock>
+          import matplotlib.pyplot as plt
+        </codeblock>
+        <image href="assets/images/screenshots/Python6.png" alt="Importing matplotlib.pyplot into Python"/>
+      </step>
+  
+      <!-- Step 2: Define Your Data -->
+      <step>
+        <cmd>Define Your Data</cmd>
+        <info>Define your data by specifying the x and y values. The x values represent the points on the horizontal axis, and the y values are the points on the vertical axis.</info>
+        <codeblock>
+          x = [1, 2, 3, 4, 5]
+          y = [1, 4, 9, 16, 25]
+        </codeblock>
+        <image href="assets/images/screenshots/Python7.png" alt="Defining data for x and y values"/>
+      </step>
+  
+      <!-- Step 3: Create the Line Plot -->
+      <step>
+        <cmd>Create the Line Plot</cmd>
+        <info>Use the `plot()` function to create the line plot with your x and y data.</info>
+        <codeblock>
+          plt.plot(x, y)
+        </codeblock>
+        <image href="assets/images/screenshots/Python8.png" alt="Creating the line plot using plt.plot()"/>
+      </step>
+  
+      <!-- Step 4: Add a Title to the Plot -->
+      <step>
+        <cmd>Add a Title to the Plot</cmd>
+        <info>Add a title to your plot using the `plt.title()` function to describe what your chart represents.</info>
+        <codeblock>
+          plt.title("My Line Chart")
+        </codeblock>
+        <image href="assets/images/screenshots/Python9.png" alt="Adding a title to the line chart"/>
+      </step>
+  
+      <!-- Step 5: Add Axis Labels -->
+      <step>
+        <cmd>Add Axis Labels</cmd>
+        <info>Label the x and y axes for clarity using `plt.xlabel()` and `plt.ylabel()` for the x and y axes, respectively.</info>
+        <codeblock>
+          plt.xlabel("X Axis")
+          plt.ylabel("Y Axis")
+        </codeblock>
+        <image href="assets/images/screenshots/Python10.png" alt="Adding axis labels to the line chart"/>
+      </step>
+  
+      <!-- Step 6: Display the Plot -->
+      <step>
+        <cmd>Display the Plot</cmd>
+        <info>Use the `plt.show()` function to display the line plot in your IDE or Python environment.</info>
+        <codeblock>
+          plt.show()
+        </codeblock>
+        <image href="assets/images/screenshots/Python11.png" alt="Displaying the plot using plt.show()"/>
+      </step>
+  
+      <!-- Step 7: Final Line Chart -->
+      <step>
+        <cmd>Final Line Chart</cmd>
+        <info>After running the full block of code, you should see a line chart displayed with the x and y data, a title, and labeled axes.</info>
+        <image href="assets/images/screenshots/Python12.png" alt="Final line chart displayed"/>
+      </step>
+  
+    </taskbody>
+
 </task>
-
