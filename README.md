@@ -1,6 +1,6 @@
-# DITA Topic Model - ENTER TITLE OF PROJECT HERE
+# DITA Topic Model - Using Matplotlib with Python
 
-This repo contains a DITA topic model (TM) related to [enter main goal and topic of your model here].
+This repo contains a DITA topic model (TM) related to creating visualizations using Pyhon and Matplotlib.
 
 ## Authors
 
