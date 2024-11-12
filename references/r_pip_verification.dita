@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<topic id="check-pip-installation">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="pip-verification-command"> 
     <title>Checking pip Installation</title>
     <shortdesc>How to quickly confirm if pip is installed on your system.</shortdesc>
     <body>
@@ -34,4 +35,4 @@
             <p>It’s a good idea to keep pip updated to the latest version for better compatibility. You can upgrade pip with the appropriate command.</p>
         </section>
     </body>
-</topic>
+</>
