@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="python-verification-command">
+    <title>Python Verification Command</title>
+    <refbody>
+        <section>
+            <title>Verification Commands for Python, pip, and Matplotlib</title>
+            <p>The following table lists common verification commands for checking the installation of Python, <ph>pip</ph>, and Matplotlib on your system. These commands ensure that required components are properly installed and available.</p>
+            <table>
+                <tgroup cols="3">
+                    <thead>
+                        <row>
+                            <entry>Component</entry>
+                            <entry>Command</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Python</entry>
+                            <entry><codeblock>python3 --version</codeblock></entry>
+                            <entry>Checks if Python is installed and displays the installed version. If Python is not installed, an error message will appear.</entry>
+                        </row>
+                        <row>
+                            <entry>pip</entry>
+                            <entry><codeblock>pip --version</codeblock></entry>
+                            <entry>Verifies that the <ph>pip</ph> package manager is installed and displays its version. If <ph>pip</ph> is not installed, an error message will appear.</entry>
+                        </row>
+                        <row>
+                            <entry>Matplotlib</entry>
+                            <entry><codeblock>import matplotlib<br/>print(matplotlib.__version__)</codeblock></entry>
+                            <entry>Imports Matplotlib and displays the installed version of the library. If Matplotlib is not installed, an import error will be raised.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </refbody>
+</reference>
