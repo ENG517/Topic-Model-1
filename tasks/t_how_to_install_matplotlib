@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_how_to_install_matplotlib">
-  <title>How to Install Matplotlib</title>
-  <shortdesc>
 
-  </shortdesc>
+  <title>Install Matplotlib</title>
+
+  <shortdesc>Install the matplotlib library in Python, which is necessary for creating data visualizations.</shortdesc>
+
   <taskbody>
+    <steps>
+      <step>
+        <cmd>Verify Dependencies: Before installing `matplotlib`, ensure that Python and `pip` are installed on your system. Run `python3 --version` to check Python and `pip --version` to check if pip is installed.</cmd>
+      </step>
+      
+      <step>
+        <cmd>If either Python or pip is missing, follow these steps to install them: Run `python3 -m ensurepip` to install pip and download Python from the official website if necessary.</cmd>
+      </step>
 
+      <step>
+        <cmd>Once Python and pip are installed, install Matplotlib with the following command: `pip install matplotlib`.</cmd>
+      </step>
+
+      <step>
+        <cmd>After installation, verify that Matplotlib is installed correctly by running the following Python code in your Python IDE: `import matplotlib.pyplot as plt` followed by `print(matplotlib.__version__)`.</cmd>
+      </step>
+    </steps>
   </taskbody>
+
 </task>
+

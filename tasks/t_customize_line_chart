@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_enter_unique_id_here">
-  <title>Customize the Line Chart</title>
-  <shortdesc>
+<task id="t_customize_the_line_chart">
 
-  </shortdesc>
+  <title>Customize the Line Chart</title>
+
+  <shortdesc>This task demonstrates how to customize a line chart by adding titles, axis labels, and other customizations using Python and Matplotlib.</shortdesc>
+
   <taskbody>
 
+    <steps>
+      <step>
+        <cmd>Import Matplotlib into Python</cmd>
+        <info>To start, import the `matplotlib.pyplot` library to access plotting functionality.</info>
+      </step>
+
+      <step>
+        <cmd>Define Your Data</cmd>
+        <info>Define your data by creating the x and y values. These represent the points to be plotted on the graph.</info>
+      </step>
+
+      <step>
+        <cmd>Create the Line Plot</cmd>
+        <info>Use the `plt.plot()` function to create the line plot with your x and y values.</info>
+      </step>
+
+      <step>
+        <cmd>Add a Title to the Plot</cmd>
+        <info>Add a title to the plot using `plt.title()` to describe what the chart represents.</info>
+      </step>
+
+      <step>
+        <cmd>Add Axis Labels</cmd>
+        <info>Label the x and y axes for clarity using `plt.xlabel()` and `plt.ylabel()`.</info>
+      </step>
+
+      <step>
+        <cmd>Add Grid Lines</cmd>
+        <info>Make the plot easier to read by adding grid lines with `plt.grid()`.</info>
+      </step>
+
+      <step>
+        <cmd>Display the Plot</cmd>
+        <info>Use `plt.show()` to display the customized plot on your screen.</info>
+      </step>
+
+      <step>
+        <cmd>Final Customized Line Chart</cmd>
+        <info>After running all the steps, you should now have a customized line chart with a title, axis labels, grid lines, and a styled line.</info>
+      </step>
+    </steps>
+
   </taskbody>
+
 </task>

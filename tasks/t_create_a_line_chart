@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_create_a_line_chart">
-  <title></title>
-  <shortdesc>
-
-  </shortdesc>
+  <title>Create a Line Chart</title>
+  
+  <shortdesc>This task demonstrates how to create a line chart using Python and Matplotlib.</shortdesc>
+  
   <taskbody>
-
+    <steps>
+      <step>
+        <cmd>Import Matplotlib into Python</cmd>
+        <info>To get started, import the `matplotlib.pyplot` library for plotting.</info>
+      </step>
+  
+      <step>
+        <cmd>Define Your Data</cmd>
+        <info>Define your data by specifying the x and y values. The x values represent the points on the horizontal axis, and the y values are the points on the vertical axis.</info>
+      </step>
+  
+      <step>
+        <cmd>Create the Line Plot</cmd>
+        <info>Use the `plot()` function to create the line plot with your x and y data.</info>
+      </step>
+  
+      <step>
+        <cmd>Add a Title to the Plot</cmd>
+        <info>Add a title to your plot using the `plt.title()` function to describe what your chart represents.</info>
+      </step>
+  
+      <step>
+        <cmd>Add Axis Labels</cmd>
+        <info>Label the x and y axes for clarity using `plt.xlabel()` and `plt.ylabel()` for the x and y axes, respectively.</info>
+      </step>
+  
+      <step>
+        <cmd>Display the Plot</cmd>
+        <info>Use the `plt.show()` function to display the line plot in your IDE or Python environment.</info>
+      </step>
+  
+      <step>
+        <cmd>Final Line Chart</cmd>
+        <info>After running the full block of code, you should see a line chart displayed with the x and y data, a title, and labeled axes.</info>
+      </step>
+    </steps>
   </taskbody>
 </task>
 
