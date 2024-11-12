@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>User Scenario 2: Novice Python User</title>
+
+    <!-- Concept Topics -->
+    <topichead navtitle="Introduction to Matplotlib">
+        <topicref href="concepts/c_matplotlib_overview.dita" navtitle="Matplotlib Overview"/>
+    </topichead>
+
+    <!-- Task Topics -->
+    <topichead navtitle="Creating a Bar Chart">
+        <topicref href="tasks/t_how_to_install_matplotlib.dita" navtitle="How to Install Matplotlib"/>
+        <topicref href="tasks/t_create_a_bar_chart.dita" navtitle="Create a Bar Chart"/>
+    </topichead>
+
+    <!-- Reference Topics -->
+    <topichead navtitle="Verification Commands">
+        <topicref href="references/r_python_verification.dita" navtitle="Python Verification Commands"/>
+    </topichead>
+</map>
