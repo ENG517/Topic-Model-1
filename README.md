@@ -20,7 +20,7 @@ James is a data science student who is working on a data visualization project f
 
 **Task Topic**: how-to-install-matplotlib, create-a-line-chart, customize-the-line-chart
 
-**Reference Topic**: python-verification-commands, pip-verification-commands
+**Reference Topic**: python-verification-commands
 
 ### User Scenario 2: Clara - Novice Python User
 
@@ -44,7 +44,7 @@ Richard, an experienced data scientist, requires a quick reference for advanced 
 
 **Task Topics**: customize-the-line-chart
 
-**Reference Topics**: python-verification-commands, pip-verification-commands
+**Reference Topics**:pip-verification-commands
 
 
 ## Folders &amp; Files
