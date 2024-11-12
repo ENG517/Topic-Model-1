@@ -9,16 +9,43 @@ This repo contains a DITA topic model (TM) related to creating visualizations us
 
 ## PROJECT MAPS
 
-### Matplotlib User Scenario
+### User Scenario 1: James - Data Science Student
 
 James is a data science student who is working on a data visualization project for his data science course. James needs to create a clear and customizable line chart using Python and Matplotlib to present a dataset. While James is familiar with basic Python syntax, he is not familiar with the Matplotlib library. James is looking for a step-by-step tutorial that helps him create a line chart. Not only that, James wants to be able to customize it by adding his own title, axis labels, and gridlines. 
 
 
-### Topics
+#### Topics
 
-t_how_to_install_matplotlib
-C_matplotlib_verview
-r_phyton_verification_ommands
+**Concept Topic**: matplotlib-overview, about-line-chart, line-chart-type
+
+**Task Topic**: how-to-install-matplotlib, create-a-line-chart, customize-the-line-chart
+
+**Reference Topic**: python-verification-commands, pip-verification-commands
+
+### User Scenario 2: Clara - Novice Python User
+
+Clara, a statistics professional new to Python, needs to create a simple bar chart to analyze survey data. She requires a straightforward guide from installation through basic chart creation and customization.
+
+#### Topics
+
+**Concept Topics**: matplotlib-overview
+
+**Task Topics**: how-to-install-matplotlib, create-a-bar-chart
+
+**Reference Topics**: python-verification-commands
+
+### User Scenario 3: Richard - Experienced Data Scientist
+
+Richard, an experienced data scientist, requires a quick reference for advanced Matplotlib customizations, such as annotations and style adjustments, for an executive presentation.
+
+#### Topics
+
+**Concept Topics**: matplotlib-overview and line-chart-type
+
+**Task Topics**: customize-the-line-chart
+
+**Reference Topics**: python-verification-commands, pip-verification-commands
+
 
 ## Folders &amp; Files
 
