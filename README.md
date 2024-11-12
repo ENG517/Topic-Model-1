@@ -16,9 +16,9 @@ James is a data science student who is working on a data visualization project f
 
 ### Topics
 
-Task Topic: Installing Matplotlib
-Concept Topic: Matplotlib Overview
-Reference Topic: Phyton Verification Commands
+t_how_to_install_matplotlib
+C_matplotlib_verview
+r_phyton_verification_ommands
 
 ## Folders &amp; Files
 
