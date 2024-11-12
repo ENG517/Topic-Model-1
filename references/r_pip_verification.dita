@@ -1,39 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="pip-verification-command"> 
-    <title>Checking pip Installation</title>
-    <shortdesc>How to quickly confirm if pip is installed on your system.</shortdesc>
+    <title>Pip Verification Commands</title>
+    <shortdesc>This topic provides commands to verify if pip, the Python package manager, is correctly installed and up-to-date on your system.</shortdesc>
     
     <refbody>
         <section>
             <title>Overview</title>
-            <p>Verifying if pip is installed is essential for installing Python packages, including Matplotlib. Without pip, you won’t be able to manage Python packages effectively.</p>
+            <p>Verifying pip installation is essential to ensure you can install and manage Python packages. The following table provides commands to check pip installation, version, and update status across different platforms.</p>
         </section>
         
         <section>
-            <title>Steps to Check pip Installation</title>
-            <p>To check if pip is installed, follow these steps:</p>
-            <ol>
-                <li>Open your command line interface (CLI):
-                    <ul>
-                        <li>Windows: Use Command Prompt or PowerShell.</li>
-                        <li>macOS or Linux: Use the Terminal.</li>
-                    </ul>
-                </li>
-                <li>Enter the command to check the version of pip.</li>
-                <li>Look at the output. If pip is installed, you should see information about its version.</li>
-                <li>If pip isn't installed, you'll get an error message indicating the command was not found.</li>
-            </ol>
+            <title>Pip Verification Commands</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Command</stentry>
+                    <stentry>Description</stentry>
+                    <stentry>Expected Output</stentry>
+                </sthead>
+                <strow>
+                    <stentry><codeph>pip --version</codeph></stentry>
+                    <stentry>Checks if pip is installed and displays the installed version.</stentry>
+                    <stentry>The pip version number, e.g., <codeph>pip 21.1.2</codeph></stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>python -m pip --version</codeph></stentry>
+                    <stentry>Alternative command to check pip version using Python.</stentry>
+                    <stentry>The pip version number with Python version details.</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>pip list</codeph></stentry>
+                    <stentry>Lists all installed Python packages along with their versions.</stentry>
+                    <stentry>A list of installed packages and their versions.</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>pip show [package]</codeph></stentry>
+                    <stentry>Displays detailed information about a specific package.</stentry>
+                    <stentry>Package details including version, location, and dependencies.</stentry>
+                </strow>
+                <strow>
+                    <stentry><codeph>pip install --upgrade pip</codeph></stentry>
+                    <stentry>Updates pip to the latest version.</stentry>
+                    <stentry>A success message confirming pip is upgraded.</stentry>
+                </strow>
+            </simpletable>
         </section>
         
         <section>
-            <title>Next Steps</title>
-            <p>If pip is not installed, refer to the official pip installation guide for installation instructions.</p>
+            <title>Troubleshooting Pip Installation</title>
+            <p>If pip is not installed, you may see an error message indicating that the command was not found. In this case, follow the instructions below:</p>
+            <ul>
+                <li><b>Windows</b>: Download and install the latest version of Python from the official <xref href="https://www.python.org/downloads/" format="html" scope="external">Python website</xref>. Ensure that "Add Python to PATH" is selected during installation.</li>
+                <li><b>macOS</b>: Install pip using <codeph>sudo easy_install pip</codeph> or by installing Python via <xref href="https://brew.sh/" format="html" scope="external">Homebrew</xref>.</li>
+                <li><b>Linux</b>: Use the package manager for your distribution, e.g., <codeph>sudo apt install python3-pip</codeph> for Debian-based systems.</li>
+            </ul>
         </section>
-        
+
         <section>
-            <title>Additional Information</title>
-            <p>It’s a good idea to keep pip updated to the latest version for better compatibility. You can upgrade pip with the appropriate command.</p>
+            <title>Additional Resources</title>
+            <p>For more information on pip commands, visit the <xref href="https://pip.pypa.io/en/stable/" format="html" scope="external">official pip documentation</xref>.</p>
         </section>
     </refbody>
 </reference>
