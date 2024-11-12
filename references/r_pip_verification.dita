@@ -3,7 +3,8 @@
 <reference id="pip-verification-command"> 
     <title>Checking pip Installation</title>
     <shortdesc>How to quickly confirm if pip is installed on your system.</shortdesc>
-    <body>
+    
+    <refbody>
         <section>
             <title>Overview</title>
             <p>Verifying if pip is installed is essential for installing Python packages, including Matplotlib. Without pip, you won’t be able to manage Python packages effectively.</p>
@@ -34,5 +35,5 @@
             <title>Additional Information</title>
             <p>It’s a good idea to keep pip updated to the latest version for better compatibility. You can upgrade pip with the appropriate command.</p>
         </section>
-    </body>
-</>
+    </refbody>
+</reference>
