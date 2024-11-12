@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>User Scenario 3: Experienced Data Scientist</title>
+
+    <!-- Concept Topics -->
+    <topichead navtitle="Overview of Matplotlib and Line Charts">
+        <topicref href="concepts/c_matplotlib_overview.dita" navtitle="Matplotlib Overview"/>
+        <topicref href="concepts/c_line_chart_type.dita" navtitle="Line Chart Type"/>
+    </topichead>
+
+    <!-- Task Topics -->
+    <topichead navtitle="Advanced Customization for Charts">
+        <topicref href="tasks/t_customize_line_chart.dita" navtitle="Customize the Line Chart"/>
+    </topichead>
+
+    <!-- Reference Topics -->
+    <topichead navtitle="Verification Commands">
+        <topicref href="references/r_python_verification.dita" navtitle="Python Verification Commands"/>
+        <topicref href="references/r_pip_verification.dita" navtitle="Pip Verification Commands"/>
+    </topichead>
+</map>
