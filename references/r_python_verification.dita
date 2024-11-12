@@ -28,7 +28,7 @@
                         </row>
                         <row>
                             <entry>Matplotlib</entry>
-                            <entry><codeblock>import matplotlib<br/>print(matplotlib.__version__)</codeblock></entry>
+                            <entry><codeblock>import matplotlib<ph/>print(matplotlib.__version__)</codeblock></entry>
                             <entry>Imports Matplotlib and displays the installed version of the library. If Matplotlib is not installed, an import error will be raised.</entry>
                         </row>
                     </tbody>

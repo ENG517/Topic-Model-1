@@ -20,6 +20,5 @@
     <!-- Reference Topics -->
     <topichead navtitle="Verification Commands">
         <topicref href="references/r_python_verification.dita" navtitle="Python Verification Commands"/>
-        <topicref href="references/r_pip_verification.dita" navtitle="Pip Verification Commands"/>
     </topichead>
 </map>
