@@ -18,6 +18,7 @@
                     <tbody>
                         <row>
                             <entry>Python</entry>
+                            <!-- should use codeph, since it is not a block with multiple lines of code. Change throughout. -->
                             <entry><codeblock>python3 --version</codeblock></entry>
                             <entry>Checks if Python is installed and displays the installed version. If Python is not installed, an error message will appear.</entry>
                         </row>
@@ -28,7 +29,12 @@
                         </row>
                         <row>
                             <entry>Matplotlib</entry>
-                            <entry><codeblock>import matplotlib<ph/>print(matplotlib.__version__)</codeblock></entry>
+                            <!-- Since it is a block, you need to adhere to the whitespacing rules of a block. Also, there was a stray element <ph/>.  -->
+                            <entry>
+<codeblock>import matplotlib
+print(matplotlib.__version__)
+</codeblock>
+                            </entry>
                             <entry>Imports Matplotlib and displays the installed version of the library. If Matplotlib is not installed, an import error will be raised.</entry>
                         </row>
                     </tbody>

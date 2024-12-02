@@ -2,10 +2,13 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="matplotlib-overview">
     <title>Matplotlib Overview</title>
+    <!-- shortdesc? -->
     <conbody>
+        <!-- here's your shortdesc. Also, consider how this is not conceptual material about matplotlib. It doesn't answer any questions about the library itself. What information should you provide here that answers that "What is matplotlib?" question? -->
         <p>Matplotlib is a Python library widely used for creating data visualizations, such as line charts, bar charts, and scatter plots. This overview introduces Matplotlib and describes the requirements for installing and verifying it on your system.</p>
 
         <section>
+            <!-- prereqs are more for tasks, not concepts. -->
             <title>Prerequisites</title>
             <p>Before installing Matplotlib, ensure that Python and <ph>pip</ph>, Python’s package installer, are installed on your computer. These are necessary for managing and installing Python libraries like Matplotlib.</p>
         </section>
