@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!-- COMMENTS
+    - Title's should not be contextualized for the course, but your scenario. In other words, "User Scenario 1 ..." wouldn't be a appropriate title for something you'd publish.
+    - I think your topic choices for the maps throughout are well thought out. Good work there!
+    - Make sure your maps are in the root. I moved them. This messes with the paths that you write, if you don't put them in the root folder.
+    - One note: Typically, you wouldn't necessarily create all maps with this idea of Concept topics -> Task topics -> Ref topics.
+    - I'll note that your topic model doesn't employ any of the ditaeval conditional work. Your maps are doing much of that work, but I also think with some revisions to your concept topics, you'll see the benefits of this flaggin tool.
+-->
 <map>
     <title>User Scenario 1: Data Science Student</title>
 

@@ -4,14 +4,20 @@
 
   <title>Customize the Line Chart</title>
 
-  <shortdesc>This task demonstrates how to customize a line chart by adding titles, axis labels, and other customizations using Python and Matplotlib.</shortdesc>
+  <shortdesc>
+    This task demonstrates how to customize a line chart by adding titles, axis labels, and other customizations using Python and Matplotlib.
+  </shortdesc>
 
   <taskbody>
-
+    <!-- COMMENTS
+      - All code should be contained by codeph for oneliners & codeblock for multiline code.
+      - You should be incorporating example outputs each step. That's a common move in coding tutorials. This can include codeblocks contained by stepxmp and the complete code in an example element at the end. Since you are genereating visuals, the dataviz should be rendered when applicable too.
+      - Be sure to revise for these issues throughout all you task topics.
+    -->
     <steps>
       <step>
         <cmd>Import Matplotlib into Python</cmd>
-        <info>To start, import the `matplotlib.pyplot` library to access plotting functionality.</info>
+        <info>To start, import the <codeph>matplotlib.pyplot</codeph> library to access plotting functionality.</info>
       </step>
 
       <step>

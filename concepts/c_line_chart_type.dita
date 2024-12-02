@@ -2,6 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="line-chart-type">
     <title>Line Chart Type</title>
+    <!-- shortdesc? Also, is this pretty much the same as the "about line charts" file? -->
     <conbody>
         <p>A line chart is a type of data visualization that displays data points connected by straight line segments, useful for showing trends over time or the relationship between two variables. This concept provides an overview of creating a line chart using Python and the Matplotlib library.</p>
 
