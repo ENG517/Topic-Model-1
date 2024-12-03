@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>User Scenario 3: Experienced Data Scientist</title>
+    <title>Matplotlib Chart Customization Guide</title>
 
     <!-- Concept Topics -->
     <topichead navtitle="Overview of Matplotlib and Line Charts">
