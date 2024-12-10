@@ -5,45 +5,93 @@
   <shortdesc>This task demonstrates how to create a bar chart using Python and Matplotlib.</shortdesc>
   <taskbody>
     <steps>
-      <step>
+     
+     <step>
         <cmd>Import matplotlib.pyplot into Python</cmd>
         <info>This command imports the necessary library for creating plots in Python.</info>
+        <codeblock>
+      import matplotlib.pyplot as plt
+        </codeblock>
       </step>
 
       <step>
-  <cmd>Define Your Data: categories = ['A', 'B', 'C', 'D', 'E']; values = [10, 20, 15, 25, 30]</cmd>
-  <info>This step defines the categories and values for the bar chart.</info>
-  </step>
-
+        <cmd>Define Your Data</cmd>
+        <info>This step defines the categories and values for the bar chart.</info>
+        <codeblock>
+      categories = ['A', 'B', 'C', 'D', 'E']
+      values = [10, 20, 15, 25, 30]
+        </codeblock>
+      </step>
 
       <step>
-        <cmd>Create the Bar Plot using the `plt.bar()` function.</cmd>
+        <cmd>Create the Bar Plot using the <codeph>plt.bar()</codeph> function</cmd>
         <stepresult>The bar chart is now created using the categories and values defined earlier.</stepresult>
+        <stepxmp>
+          <codeblock>
+plt.bar(categories, values)
+          </codeblock>
+        </stepxmp>
       </step>
 
       <step>
-        <cmd>Add a Title to the Plot using the `plt.title()` function.</cmd>
+        <cmd>Add a Title to the Plot using the <codeph>plt.title()</codeph> function</cmd>
         <stepresult>A title is added to the bar chart.</stepresult>
+        <stepxmp>
+          <codeblock>
+plt.title('Bar Chart Example')
+          </codeblock>
+        </stepxmp>
       </step>
 
       <step>
-        <cmd>Add Axis Labels using the `plt.xlabel()` and `plt.ylabel()` functions.</cmd>
+        <cmd>Add Axis Labels using the <codeph>plt.xlabel()</codeph> and <codeph>plt.ylabel()</codeph> functions</cmd>
         <stepresult>Labels for the X and Y axes are added to the chart.</stepresult>
+        <stepxmp>
+          <codeblock>
+plt.xlabel('Categories')
+plt.ylabel('Values')
+          </codeblock>
+        </stepxmp>
       </step>
 
       <step>
-        <cmd>Customize the bar color to Blue, using `plt.bar()` and `color`.</cmd>
+        <cmd>Customize the bar color to Blue, using <codeph>color</codeph> in <codeph>plt.bar()</codeph></cmd>
         <stepresult>The color of the bars in the chart is changed to blue.</stepresult>
+        <stepxmp>
+          <codeblock>
+plt.bar(categories, values, color='blue')
+          </codeblock>
+        </stepxmp>
       </step>
 
       <step>
-        <cmd>Display the Plot using `plt.show()` again.</cmd>
+        <cmd>Display the Plot using <codeph>plt.show()</codeph> again</cmd>
         <stepresult>The final chart with the blue bars is displayed again.</stepresult>
+        <stepxmp>
+          <codeblock>
+plt.show()
+          </codeblock>
+        </stepxmp>
       </step>
 
       <step>
         <cmd>Final Bar Chart</cmd>
         <stepresult>The final version of the bar chart is displayed below.</stepresult>
+        <stepxmp>
+          <codeblock>
+# Final complete code
+import matplotlib.pyplot as plt
+
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [10, 20, 15, 25, 30]
+
+plt.bar(categories, values, color='blue')
+plt.title('Bar Chart Example')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.show()
+          </codeblock>
+        </stepxmp>
       </step>
     </steps>
   </taskbody>

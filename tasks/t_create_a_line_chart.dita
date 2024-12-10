@@ -9,39 +9,90 @@
     <steps>
       <step>
         <cmd>Import Matplotlib into Python</cmd>
-        <info>To get started, import the `matplotlib.pyplot` library for plotting.</info>
+        <info>To get started, import the <codeph>matplotlib.pyplot</codeph> library for plotting.</info>
+        <stepxmp>
+          <codeblock>
+import matplotlib.pyplot as plt
+          </codeblock>
+        </stepxmp>
       </step>
   
       <step>
         <cmd>Define Your Data</cmd>
         <info>Define your data by specifying the x and y values. The x values represent the points on the horizontal axis, and the y values are the points on the vertical axis.</info>
+        <stepxmp>
+          <codeblock>
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+          </codeblock>
+        </stepxmp>
       </step>
   
       <step>
         <cmd>Create the Line Plot</cmd>
-        <info>Use the `plot()` function to create the line plot with your x and y data.</info>
+        <info>Use the <codeph>plot()</codeph> function to create the line plot with your x and y data.</info>
+        <stepxmp>
+          <codeblock>
+plt.plot(x, y)
+          </codeblock>
+        </stepxmp>
       </step>
   
       <step>
         <cmd>Add a Title to the Plot</cmd>
-        <info>Add a title to your plot using the `plt.title()` function to describe what your chart represents.</info>
+        <info>Add a title to your plot using the <codeph>plt.title()</codeph> function to describe what your chart represents.</info>
+        <stepxmp>
+          <codeblock>
+plt.title('Line Chart')
+          </codeblock>
+        </stepxmp>
       </step>
   
       <step>
         <cmd>Add Axis Labels</cmd>
-        <info>Label the x and y axes for clarity using `plt.xlabel()` and `plt.ylabel()` for the x and y axes, respectively.</info>
+        <info>Label the x and y axes for clarity using <codeph>plt.xlabel()</codeph> and <codeph>plt.ylabel()</codeph> for the x and y axes, respectively.</info>
+        <stepxmp>
+          <codeblock>
+plt.xlabel('X Values')
+plt.ylabel('Y Values')
+          </codeblock>
+        </stepxmp>
       </step>
   
       <step>
         <cmd>Display the Plot</cmd>
-        <info>Use the `plt.show()` function to display the line plot in your IDE or Python environment.</info>
+        <info>Use the <codeph>plt.show()</codeph> function to display the line plot in your IDE or Python environment.</info>
+        <stepxmp>
+          <codeblock>
+plt.show()
+          </codeblock>
+        </stepxmp>
       </step>
   
       <step>
         <cmd>Final Line Chart</cmd>
         <info>After running the full block of code, you should see a line chart displayed with the x and y data, a title, and labeled axes.</info>
+        <stepxmp>
+          <codeblock>
+# Final complete code
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+plt.plot(x, y)
+plt.title('Line Chart')
+plt.xlabel('X Values')
+plt.ylabel('Y Values')
+plt.show()
+          </codeblock>
+        </stepxmp>
       </step>
     </steps>
+
+    <result>
+    <image href="assets/images/screenshots/Python10.png" alt="Initial Line Chart Creation" />
+    </result>
+    
   </taskbody>
 </task>
-
