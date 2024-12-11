@@ -12,31 +12,30 @@
 
 ##########################################################
 
-#########
 # COLORS
 #########
 colors:
   primary: 
-    main: '#005687' #Dark Blue
-    s1: '#e1f5fe'
-    s2: '#b3e5fc'
-    s3: '#4fc3f7'
-    s4: '#0288d1'
-    s5: '#186cb8'
+    main: '#1A73E8' # Blue
+    s1: '#E8F0FE' # Light Blue
+    s2: '#B3D6FF' # Soft Blue
+    s3: '#66A0FF' # Medium Blue
+    s4: '#0056A3' # Deep Blue
+    s5: '#003D73' # Navy Blue
   secondary: 
-    main: '#f44336' #Dark Red
-    s1: '#ffdde0'
-    s2: '#ffcdd2'
-    s3: '#ef9a9a'
-    s4: '#d32f2f'
-    s5: '#b71c1c'
+    main: '#FF6D00' # Orange
+    s1: '#FFE0CC' # Light Orange
+    s2: '#FFC299' # Soft Orange
+    s3: '#FF9D66' # Medium Orange
+    s4: '#D45500' # Burnt Orange
+    s5: '#9E3E00' # Dark Orange
   accent1:
-    main: '#f1b211' #Golden rod yellow
-    s1: '#f9f1dc'
-    s2: '#f4dea7'
-    s3: '#f2cb69'
-    s4: '#f0bb34'
-    s5: '#e4a80b'
+    main: '#34A853' # Green
+    s1: '#DFF5E3' # Light Green
+    s2: '#A8E3B7' # Soft Green
+    s3: '#80C683' # Medium Green
+    s4: '#1B6F2E' # Forest Green
+    s5: '#144C20' # Dark Green
   neutrals: # No need to change neutrals
     s1: '#f2f2f2'
     s2: '#e8e9e9'
@@ -52,20 +51,19 @@ colors:
 ########
 fonts:
   families:
-    copy: 'Public Sans, Arial Unicode MS'
-    headings: 'Bebas Neue, Times New Roman'
-    display: 'Monoton'
-    monospaced: 'Fantasque Sans Mono, Courier New, Courier'
+    copy: 'Roboto Serif Normal, Open Sans Medium'
+    headings: 'Merriweather Black, Merriweather Bold'
+    display: 'Roboto Black'
+    monospaced: 'Open Sans Extra Bold, Courier New'
   sizing:
     title: 36pt
-    h1: 29pt
-    h2: 23pt
-    h3: 23pt
+    h1: 30pt
+    h2: 24pt
+    h3: 24pt
     h4: 18pt
     h5: 18pt
     h6: 18pt
     copy: 14pt
-    uicontrol: 14.5pt
     small: 12pt
 
 ###############
