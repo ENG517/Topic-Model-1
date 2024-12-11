@@ -21,7 +21,6 @@ This report summarizes the significant edits and redesigns made to our DITA topi
 ### 2. **Micro-Level Edits**
 - **Tasks Simplified**: Revised restrictive references to support reusability.
   - **Example**: Changed "to create this chart, follow these steps" to "create bar charts using these steps."  
-    **Pull Request**: [Link to PR or GitHub file]
 - **Consistent Terminology**: Unified "Python IDE" across topics, replacing variations like "your editor" or "the environment."
 - **Active Voice**: Replaced passive phrases like "plots can be created" with "create plots."
 
