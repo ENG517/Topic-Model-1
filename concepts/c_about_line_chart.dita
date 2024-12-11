@@ -16,30 +16,30 @@
 
         <p>For example, here is how you can create a basic line chart:</p>
         <codeblock>
-x = [1, 2, 3, 4, 5]  # Time intervals
-y = [10, 20, 15, 25, 30]  # Values
-import matplotlib.pyplot as plt
-plt.plot(x, y)
-plt.xlabel('Time')
-plt.ylabel('Value')
-plt.title('Basic Line Chart')
-plt.grid(True)
-plt.show()
+            x = [1, 2, 3, 4, 5]  # Time intervals
+            y = [10, 20, 15, 25, 30]  # Values
+            import matplotlib.pyplot as plt
+            plt.plot(x, y)
+            plt.xlabel('Time')
+            plt.ylabel('Value')
+            plt.title('Basic Line Chart')
+            plt.grid(True)
+            plt.show()
         </codeblock>
 
         <p>The above example creates a simple line chart that connects data points to visualize trends. For more advanced visualizations, such as plotting multiple datasets or customizing the appearance, Matplotlib provides additional flexibility:</p>
         <codeblock>
-x = [1, 2, 3, 4, 5]
-y1 = [10, 20, 15, 25, 30]
-y2 = [15, 25, 20, 30, 35]
-plt.plot(x, y1, label='Dataset 1', color='blue', marker='o')
-plt.plot(x, y2, label='Dataset 2', color='green', linestyle='--')
-plt.xlabel('Time')
-plt.ylabel('Value')
-plt.title('Advanced Line Chart with Multiple Datasets')
-plt.legend()
-plt.grid(True)
-plt.show()
+            x = [1, 2, 3, 4, 5]
+            y1 = [10, 20, 15, 25, 30]
+            y2 = [15, 25, 20, 30, 35]
+            plt.plot(x, y1, label='Dataset 1', color='blue', marker='o')
+            plt.plot(x, y2, label='Dataset 2', color='green', linestyle='--')
+            plt.xlabel('Time')
+            plt.ylabel('Value')
+            plt.title('Advanced Line Chart with Multiple Datasets')
+            plt.legend()
+            plt.grid(True)
+            plt.show()
         </codeblock>
 
         <p>This example demonstrates how to include multiple datasets on a single chart and use visual distinctions, such as colors and line styles, to differentiate them. Adding labels, a legend, and grid lines enhances readability and ensures the chart communicates its insights effectively.</p>
